@@ -75,7 +75,6 @@ h1 a {
     max-width: 400px;
     margin-top: 5%;
     margin-right: 10%;
-
 }
 .btn{
     display: flex;
@@ -210,3 +209,93 @@ h1 a {
     padding-left: 10%;
     padding-bottom: 20px;
 }
+
+@media screen and (max-width: 1024px){
+    .profile{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .section1{ 
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }  
+    
+    .content{
+        width: 100%;
+        margin: 1rem 0;  
+        position: relative;
+        z-index: 2;
+    }
+
+    .btn{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 60%;
+        margin-left: 20%;
+        justify-content: space-around;
+    }
+
+    .profile{
+        margin-left: 25%;
+    }
+    
+    .section1 img{
+        width: 80%;
+    }
+
+    .head {
+        margin-right: 0%;
+    }
+    
+    .para{
+        margin-right: 10%;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .section1 img{
+        width: 100%;
+    }
+
+    .section4{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .para{
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .section6 h2 {
+        font-size: medium;  
+    }
+    .section6 ul{
+        font-size: medium;  
+    }
+    
+    .section2 img{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+        align-items: center;
+        width: 64%;
+        margin-left: 18%;
+        margin-bottom: 8%;
+    }
+    
+    .section2 text{
+        display: flex;
+    }
+}
+
+
