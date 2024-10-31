@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Newgate FREE';
+    src: url('NewgateFREE.woff2') format('woff2'),
+        url('NewgateFREE.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-title h1 {
+    font-family: "Newgate FREE";
+    font-size: 3rem;
+    color: whitesmoke;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15cap;
+    background-color: #33372C;
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.blog-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.blog-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog-item h2 {
+    font-family: 'Caveat', cursive; 
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #33372C;
+}
+
+.blog-item p {
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: x-small;
+    text-align: center;
+    color: #557C56;
+    text-align: left;
+}
+
+p a {
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+
