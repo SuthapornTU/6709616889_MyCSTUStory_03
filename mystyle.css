@@ -39,8 +39,7 @@ body{
     color: whitesmoke;
     font-size: smaller;
     position: relative;
-    z-index: 2;
-   
+    z-index: 2;   
 }
 
 h1 a {
@@ -84,7 +83,6 @@ h1 a {
     flex-wrap: wrap;
     max-width: 60%;
     justify-content: space-between;
-
 }
 
 .section1 h1{
@@ -93,7 +91,6 @@ h1 a {
     position: relative;
     margin-bottom: 0%;
 }
-
 .section1 p{
     margin: 0%;
     font-size: 20px;
@@ -158,18 +155,26 @@ h1 a {
 .section4{
     background-size: 100%;
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-around; 
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     background-color: black;
     text-align: center;
+    margin-top: 3%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.section4 h2{
+.head {
+    width: 50%;
+    margin-right: 20%;
     margin-top: 0%;
+}
+
+.para{
+    width: 50%;
+    margin-right: 20%;
 }
 
 .section5 {
